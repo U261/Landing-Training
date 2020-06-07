@@ -1,0 +1,40 @@
+// блоки - независимые повторяющиеся элементы с 
+// чётким определением 
+//	exmpl: section-title, label-text
+// не имеют отступов! чтобы можно было повторно использовать
+// отступы задаёт обёртка
+	
+// элементы - составная часть блока*
+// элементы шапки сайта
+// имя-класса-блока__имя-элемента
+
+//можно совмещать блок и элемент в одном class="navigation_subtitle subtitle"
+
+
+// size limits:
+* {
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1500px;
+	margin: auto;
+	.navbar {
+		max-width: 1259px;
+		margin: auto;
+	}
+}	
+//цвета:	
+$text-color: #262626;
+$text-color-light: #7b7b79;
+$primary: #507fe1;
+
+//шрифты:
+@import '_fonts';	
+	
+//шапка сайта
+@import '_navbar';
+
+//Блок hero
+@import '_hero';
+
+
