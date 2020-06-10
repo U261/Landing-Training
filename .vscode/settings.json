@@ -1,6 +1,5 @@
 {
 	"editor.wordWrap": "on",
-	"editor.columnSelection": true,
 	"files.autoGuessEncoding": true,
 	"files.autoSave": "afterDelay"
 }

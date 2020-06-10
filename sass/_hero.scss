@@ -1,0 +1,103 @@
+.hero-wrapper{
+    background-color: #54a3da;
+    background-image: linear-gradient(to top, rgba(147, 147, 147, 0.15) 0%, rgba(217, 239, 255, 0.15) 44%, rgba(193, 193, 193, 0.15) 100%);
+    .hero{
+        padding-top: 87px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        .hero__advert{
+            height: 700px;
+            .hero__title{
+                display: inline-block;
+                margin-top: 120px;
+                color: #f7f6f2;
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 52px;
+                font-weight: 700;
+                line-height: 72px;
+                text-transform: uppercase;
+                max-width: 500px;
+            }
+            .hero__subtitle{
+                margin-top: 5px;
+                width: 484px;
+                color: #ffffff;
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 20px;              
+                font-weight: 300;
+                line-height: 47px;
+                max-width: 500px;
+            }
+            .hero__sign-welcome{
+                margin: 50px 0 35px 0;
+                display: inline-block;
+                color: #f7f7f7;
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                .hero__free-label{
+                    display: inline-block;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+                    padding: 5px;
+                    border-radius: 3px;
+                    background-color: #ffce54;
+                }
+            }
+            .hero__form-wrapper{
+                .form{
+                    .input__mail-space{
+                        display: inline-block;
+                        width: 400px;
+                        padding: 0 10px;
+                        height: 54px;
+                        border: 1px solid rgba(255, 255, 255, 0.15);
+                        background-color: #fff;
+                        font-family: 'Ubuntu', sans-serif;
+                        font-size: 18px;
+                        color: #797979;
+                        outline: 0;
+                        font-weight: 500;
+                        border-radius: 5px;
+                    }
+                    .input-button{                        
+                        border: none;
+                        display: inline-block;
+                        font-family: 'Ubuntu', sans-serif;
+                        font-size: 18px;
+                        margin-left: 30px;
+                        font-weight: 700;
+                        // Style for "Rounded Re"
+                        width: 113px;
+                        height: 54px;
+                        border-radius: 5px;
+                        color: #fff;
+                        background-color: #77c344;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .hero__hand{
+            .hero__hand-and-phone{
+                img{
+                    margin-bottom: -3px;
+                }
+            }
+            .hero__phone-image{
+                img{}
+            }
+        }
+    }
+}
+.partners-wrapper {
+    background-color: #f8f8f8;  
+    .partners {
+        height: 158px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
