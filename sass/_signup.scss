@@ -1,0 +1,56 @@
+.signup{
+   height: 480px;
+   .signup__title{
+      padding-top: 80px;
+      height: 160px;
+      text-align: center;
+      color: #2d394c;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 40px;
+      font-weight: 500;
+      text-transform: uppercase;
+   }
+   .signup__subtitle{
+      margin-top: 18px;
+      padding-bottom: 30px;
+      color: #5a626e;
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-style: italic;
+      font-size: 24px;
+      font-weight: 400;
+   }
+   .form-wrapper{
+      text-align: center;
+      .mail-space{      
+         display: inline-block;
+         width: 630px;
+         padding: 0 10px;
+         height: 68px;
+         background-color: #fff;
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 18px;
+         color: #797979;
+         outline: 0;
+         font-weight: 500;
+         border: 1px solid gray;
+         border-radius: 3px;
+      }
+      .input-button{
+         margin-top: 44px;
+         border: none;
+         display: inline-block;
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 18px;
+         margin-left: 30px;
+         font-weight: 700;
+         // Style for "Rounded Re"
+         width: 190px;
+         height: 68px;
+         border-radius: 5px;
+         color: #fff;
+         background-color: #77c344;
+         text-transform: uppercase;
+      }
+   }
+}

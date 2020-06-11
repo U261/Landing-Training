@@ -8,6 +8,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1300px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
 @font-face {
   font-family: 'Proxima Nova Semibold';
   src: url("../fonts/ProximaNova-Semibold.eot");
@@ -95,12 +101,12 @@
 }
 
 .hero-wrapper .hero .hero__advert {
-  height: 700px;
+  height: 780px;
 }
 
 .hero-wrapper .hero .hero__advert .hero__title {
   display: inline-block;
-  margin-top: 120px;
+  margin-top: 200px;
   color: #f7f6f2;
   font-family: 'Ubuntu', sans-serif;
   font-size: 52px;
@@ -191,11 +197,7 @@
           justify-content: space-between;
 }
 
-.advantages-wrapper {
-  border: 3px solid red;
-}
-
-.advantages-wrapper .advantages__why {
+.advantages-why {
   height: 135px;
   text-align: center;
   margin-top: 80px;
@@ -204,6 +206,145 @@
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
   font-weight: 500;
+  text-transform: uppercase;
+}
+
+.advantages-wrapper .advantages {
+  margin-left: display-1260px/2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advantages-wrapper .advantages .advantages__arguments .advantages__arg {
+  min-width: 460px;
+  max-width: 680px;
+}
+
+.advantages-wrapper .advantages .advantages__arguments .advantages__arg .advantages__arg-label {
+  text-align: center;
+}
+
+.advantages-wrapper .advantages .advantages__laptop {
+  margin-bottom: 80px;
+}
+
+.differences {
+  background-color: #f1f1f2;
+}
+
+.differences .differences__why {
+  padding-top: 80px;
+  height: 200px;
+  text-align: center;
+  color: #2d394c;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.differences .differences__slider .differences__slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.differences .differences__slider .differences__slide .differences__text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.differences .differences__slider .differences__slide .differences__text .differences__slide-title {
+  opacity: 0.88;
+  color: #2d394c;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.differences .differences__slider .differences__slide .differences__text .differences__slide-text {
+  width: 725px;
+  height: 113px;
+  opacity: 0.89;
+  color: #5a626e;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: justify;
+}
+
+.differences .differences__slider .differences__slide .differences__image img {
+  width: 100%;
+}
+
+.signup {
+  height: 480px;
+}
+
+.signup .signup__title {
+  padding-top: 80px;
+  height: 160px;
+  text-align: center;
+  color: #2d394c;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.signup .signup__subtitle {
+  margin-top: 18px;
+  padding-bottom: 30px;
+  color: #5a626e;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.signup .form-wrapper {
+  text-align: center;
+}
+
+.signup .form-wrapper .mail-space {
+  display: inline-block;
+  width: 630px;
+  padding: 0 10px;
+  height: 68px;
+  background-color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  color: #797979;
+  outline: 0;
+  font-weight: 500;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.signup .form-wrapper .input-button {
+  margin-top: 44px;
+  border: none;
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  margin-left: 30px;
+  font-weight: 700;
+  width: 190px;
+  height: 68px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #77c344;
   text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
