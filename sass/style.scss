@@ -10,20 +10,12 @@
 
 //можно совмещать блок и элемент в одном class="navigation_subtitle subtitle"
 
+html{
+	font-family: 'Ubuntu', sans-serif;
+}
 
 // size limits:
-* {
-	box-sizing: border-box;
-}
-.container {	
-	max-width: 1260px;
-	margin: 0 auto;
-}	
-@media (max-width: 1300px){
-	.container {	
-		padding: 0 10px;
-	}
-}
+
 //цвета:	
 $text-color: #262626;
 $text-color-light: #7b7b79;
@@ -45,3 +37,5 @@ $primary: #507fe1;
 @import '_differences';
 
 @import '_signup';
+
+@import '_media';

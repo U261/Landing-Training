@@ -1,17 +1,5 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.container {
-  max-width: 1260px;
-  margin: 0 auto;
-}
-
-@media (max-width: 1300px) {
-  .container {
-    padding: 0 10px;
-  }
+html {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 @font-face {
@@ -32,9 +20,10 @@
 
 .navbar-wrapper {
   position: fixed;
-  background-color: #fff;
-  margin: 0 auto;
+  background-color: #ffffff;
   width: 100%;
+  top: -3px;
+  left: 0;
 }
 
 .navbar {
@@ -51,10 +40,6 @@
           justify-content: space-between;
 }
 
-.navbar__logo-home {
-  margin-right: 20px;
-}
-
 .navbar__logo-home a img {
   vertical-align: middle;
 }
@@ -66,12 +51,11 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 460px;
+  width: 400px;
   text-decoration: none;
   font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 47px;
   text-transform: uppercase;
 }
 
@@ -88,6 +72,8 @@
 }
 
 .hero-wrapper .hero {
+  max-height: 780px;
+  font-family: 'Ubuntu', sans-serif;
   padding-top: 87px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,45 +86,50 @@
           align-items: flex-end;
 }
 
-.hero-wrapper .hero .hero__advert {
-  height: 780px;
+.hero__advert {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 580px;
 }
 
-.hero-wrapper .hero .hero__advert .hero__title {
+.hero__advert .hero__title {
   display: inline-block;
-  margin-top: 200px;
   color: #f7f6f2;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 52px;
   font-weight: 700;
   line-height: 72px;
   text-transform: uppercase;
-  max-width: 500px;
 }
 
-.hero-wrapper .hero .hero__advert .hero__subtitle {
+.hero__advert .hero__subtitle {
   margin-top: 5px;
-  width: 484px;
+  max-width: 484px;
   color: #ffffff;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 47px;
-  max-width: 500px;
 }
 
-.hero-wrapper .hero .hero__advert .hero__sign-welcome {
+.hero__advert .hero__sign-welcome {
   margin: 50px 0 35px 0;
   display: inline-block;
   color: #f7f7f7;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   font-weight: 500;
 }
 
-.hero-wrapper .hero .hero__advert .hero__sign-welcome .hero__free-label {
+.hero__advert .hero__sign-welcome .hero__free-label {
   display: inline-block;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   font-weight: 700;
   padding: 5px;
@@ -146,25 +137,27 @@
   background-color: #ffce54;
 }
 
-.hero-wrapper .hero .hero__advert .hero__form-wrapper .form .input__mail-space {
-  display: inline-block;
-  width: 400px;
+.hero__advert .hero__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__advert .hero__form .hero__mail-space {
+  max-width: 423px;
   padding: 0 10px;
   height: 54px;
   border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
   background-color: #fff;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   color: #797979;
   outline: 0;
   font-weight: 500;
-  border-radius: 5px;
 }
 
-.hero-wrapper .hero .hero__advert .hero__form-wrapper .form .input-button {
+.hero__advert .hero__form .hero__button {
   border: none;
-  display: inline-block;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   margin-left: 30px;
   font-weight: 700;
@@ -176,7 +169,9 @@
   text-transform: uppercase;
 }
 
-.hero-wrapper .hero .hero__hand .hero__hand-and-phone img {
+.hero__hand .hero__hand-and-phone img {
+  max-width: 40vw;
+  max-height: 750px;
   margin-bottom: -3px;
 }
 
@@ -201,7 +196,6 @@
   height: 135px;
   text-align: center;
   margin-top: 80px;
-  opacity: 0.85;
   color: #2d394c;
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
@@ -236,44 +230,38 @@
 }
 
 .differences {
+  height: 732px;
+  background: url(/images/img1.png) no-repeat bottom right/cover;
   background-color: #f1f1f2;
 }
 
-.differences .differences__why {
+.differences__why {
   padding-top: 80px;
-  height: 200px;
+  height: 350px;
   text-align: center;
   color: #2d394c;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.differences .differences__slider .differences__slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.differences__slider {
+  background-color: #f1f1f2;
+  width: 765px;
+  height: 382px;
+  padding: 40px 0px 40px 80px;
 }
 
-.differences .differences__slider .differences__slide .differences__text {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
-}
-
-.differences .differences__slider .differences__slide .differences__text .differences__slide-title {
+.differences__slider .differences__slide-title {
+  margin-bottom: 40px;
+  height: 27px;
   opacity: 0.88;
   color: #2d394c;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 28px;
   font-weight: 400;
-  margin-bottom: 10px;
 }
 
-.differences .differences__slider .differences__slide .differences__text .differences__slide-text {
-  width: 725px;
-  height: 113px;
+.differences__slider .differences__slide-text {
   opacity: 0.89;
   color: #5a626e;
   font-family: "Open Sans";
@@ -281,10 +269,6 @@
   font-weight: 400;
   line-height: 32px;
   text-align: justify;
-}
-
-.differences .differences__slider .differences__slide .differences__image img {
-  width: 100%;
 }
 
 .signup {
@@ -346,5 +330,32 @@
   color: #fff;
   background-color: #77c344;
   text-transform: uppercase;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1499px) {
+  .container {
+    padding: 0 10px;
+  }
+  .partners-wrapper .partners {
+    height: 158px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 /*# sourceMappingURL=style.css.map */

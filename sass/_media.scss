@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+.container {	
+	max-width: 1260px;
+	margin: 0 auto;
+}	
+
+
+
+@media (max-width: 1499px){
+	.container {	
+		padding: 0 10px;
+   }
+   .partners-wrapper {
+    .partners {
+        height: 158px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+   }  
+}
+
+
+@media (max-width: 990px){
+	
+}

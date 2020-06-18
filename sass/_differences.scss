@@ -1,49 +1,44 @@
 .differences{
+   height: 732px;
+   background: url(/images/img1.png) no-repeat bottom right / cover;
    background-color: #f1f1f2;
-
-   .differences__why {
-      padding-top: 80px;
-      height: 200px;
-      text-align: center;
-      color: #2d394c;
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 40px;
-      font-weight: 500;
-      text-transform: uppercase;
-   }
-   .differences__slider{
-      .differences__slide{
-         display: flex;
-         .differences__text{
-            flex:0 0 50%;
-            .differences__slide-title{
-               // Style for "Works on a"
-               opacity: 0.88;
-               color: #2d394c;
-               font-family: 'Ubuntu', sans-serif;
-               font-size: 28px;
-               font-weight: 400;
-               margin-bottom: 10px;
-            }
-            .differences__slide-text{
-               // Style for "Lorem ipsu"
-               width: 725px;
-               height: 113px;
-               opacity: 0.89;
-               color: #5a626e;
-               font-family: "Open Sans";
-               font-size: 18px;
-               font-weight: 400;
-               line-height: 32px;
-               text-align: justify;;
-            }
-         }
-         .differences__image{
-            
-            img {
-               width: 100%;
-            }        
-         }
-      }
-   }
 }
+.differences__why {
+   padding-top: 80px;
+   height: 350px;
+   text-align: center;
+   color: #2d394c;
+   font-size: 40px;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+
+.differences__slider{
+   background-color: #f1f1f2;
+   width: 765px;
+   height: 382px;
+   padding: 40px 0px 40px 80px;
+
+   .differences__slide{
+      
+   }
+   .differences__slide-title{
+      margin-bottom: 40px;
+      height: 27px;
+      opacity: 0.88;
+      color: #2d394c;
+      font-size: 28px;
+      font-weight: 400;
+   }
+   .differences__slide-text{   
+      opacity: 0.89;
+      color: #5a626e;
+      font-family: "Open Sans";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: justify;
+   }
+   
+}
+
