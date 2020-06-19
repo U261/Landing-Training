@@ -1,33 +1,75 @@
 .advantages-why {
-   height: 135px;
+   height: 175px;
    text-align: center;
-   margin-top: 80px;
+   padding-top: 80px;
    color: #2d394c;
-   font-family: 'Ubuntu', sans-serif;
    font-size: 40px;
    font-weight: 500;
    text-transform: uppercase;
 }
-.advantages-wrapper {
-   .advantages{
-      margin-left: ((display - 1260px)/2);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      .advantages__arguments{         
-         .advantages__arg{            
-            min-width: 460px;
-            max-width: 680px;
-            .advantages__arg-label{
-               text-align: center;
-            }
-            .advantages__arg-text{
-               
-            }
-         }
-      }
-      .advantages__laptop{
-         margin-bottom: 80px;
-      }
-   }  
+
+.advantages{
+   height: 618px;
+   margin-bottom: 112px;  
+   position: relative;
 }
+.advantages__arguments{  
+   width: 1260px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   .advantages__arg{  
+      
+      width: 43vw; 
+      height: 153px;
+      min-width: 610px;
+      padding: 20px 0px;                  
+      .advantages__arg-label{
+         padding: 10px 0 20px 60px;
+         opacity: 0.9;
+         color: #2d394c;
+         font-size: 22px;
+         font-weight: 500;
+      }
+      .advantages__arg-text{
+         color: #9499a2;
+         font-family: "Open Sans", sans-serif;
+         font-size: 20px;
+         font-weight: 400;
+         line-height: 22px;
+      }
+   }    
+}
+
+.arg-1{
+   background: url(/images/advantages-img1.JPG) no-repeat left -1px;
+   background-size: 52px;
+}
+.arg-2{
+    background: url(/images/advantages-img2.JPG) no-repeat left -1px;
+    background-size: 52px;
+}
+.arg-3{
+    background: url(/images/advantages-img3.JPG) no-repeat left -1px;
+    background-size: 52px;
+}
+.arg-4{
+    background: url(/images/advantages-img4.JPG) no-repeat left -1px;
+    background-size: 52px;
+}
+
+.advantages__laptop{
+   border: 1px dotted red;
+   position: absolute;  
+   top: 0;
+   right: 0;  
+   height: 618px;
+   display: flex;  
+   align-items: center;   
+   img{
+      
+   }
+} 
+  
+
+

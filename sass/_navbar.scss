@@ -1,5 +1,6 @@
 .navbar-wrapper {
 	position: fixed;	
+	z-index: 100;
 	background-color: #ffffff;
 	width: 100%;
 	top: -3px;
@@ -7,24 +8,23 @@
 }
 
 .navbar {		
-	width: 100%;
+	//width: 100%;
 	height: 87px; 				//
 	display: flex;	
 	align-items: center;
 	justify-content: space-between;
-	&__logo-home {
+	.navbar__logo-home {
 		a {
 			img {
 				vertical-align: middle;				
 			}
 		}
 	}
-	&__links {
+	.navbar__links {
 		display: flex;
 		justify-content: space-between;
 		width: 400px;		
 		text-decoration: none;
-		font-family: 'Ubuntu', sans-serif;
 		font-size: 16px;
 		font-weight: 400;
 		text-transform: uppercase;				

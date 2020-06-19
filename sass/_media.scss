@@ -8,10 +8,28 @@
 
 
 
-@media (max-width: 1499px){
-	.container {	
+@media (max-width: 1410px){
+   .container {	
 		padding: 0 10px;
    }
+   .advantages-why {
+      height: 145px;
+      text-align: center;
+      padding-top: 50px;
+   }
+   .advantages__arguments{  
+      width: 100vw;
+      padding: 0 10px; 
+      .advantages__arg{   
+         min-width: 500px;        
+      }    
+   }
+   .advantages__laptop{
+      img{
+         width: 47vw;
+      }
+   } 
+
    .partners-wrapper {
     .partners {
         height: 158px;
@@ -21,6 +39,7 @@
       }
    }  
 }
+
 
 
 @media (max-width: 990px){
