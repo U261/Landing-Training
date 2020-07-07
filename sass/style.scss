@@ -1,20 +1,6 @@
-// блоки - независимые повторяющиеся элементы с 
-// чётким определением 
-//	exmpl: section-title, label-text
-// не имеют отступов! чтобы можно было повторно использовать
-// отступы задаёт обёртка
-	
-// элементы - составная часть блока*
-// элементы шапки сайта
-// имя-класса-блока__имя-элемента
-
-//можно совмещать блок и элемент в одном class="navigation_subtitle subtitle"
-
 html{
 	font-family: 'Ubuntu', sans-serif;
 }
-
-// size limits:
 
 //цвета:	
 $text-color: #262626;
@@ -24,18 +10,10 @@ $primary: #507fe1;
 //шрифты:
 @import '_fonts';	
 	
-//шапка сайта
 @import '_navbar';
-
-//Блок hero
 @import '_hero';
-
-//Блок преимуществ
 @import '_advantages';
-
-//difs
 @import '_differences';
-
 @import '_signup';
 
 @import '_media';
