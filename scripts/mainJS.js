@@ -19,3 +19,11 @@ html.onclick = function() {
         this.textContent = listContent;
     }
 }
+
+
+typeof 35; // вернет "number"
+typeof "text"; // вернет "string"
+typeof true; // вернет "boolean"
+typeof [1, 2, 4]; // вернет "object"
+typeof undefined; // вернет "undefined"
+typeof null; // вернет "object" 
